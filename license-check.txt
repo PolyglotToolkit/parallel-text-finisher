@@ -1,15 +1,19 @@
-                                                                           
-                             list of packages                              
-┏━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃ Compatible ┃ Package            ┃ License(s)                            ┃
-┡━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
-│ ✔          │ docker             │ Apache Software License               │
-│ ✔          │ certifi            │ Mozilla Public License 2.0 (MPL 2.0)  │
-│ ✔          │ idna               │ BSD License                           │
-│ ✔          │ websocket-client   │ Apache Software License               │
-│ ✔          │ charset-normalizer │ MIT License                           │
-│ ✔          │ requests           │ Apache Software License               │
-│ ✔          │ packaging          │ Apache Software License;; BSD License │
-│ ✔          │ urllib3            │ MIT License                           │
-└────────────┴────────────────────┴───────────────────────────────────────┘
+                                                                               
+                               list of packages                                
+┏━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Compatible ┃ Package                ┃ License(s)                            ┃
+┡━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ ✔          │ idna                   │ BSD License                           │
+│ ✔          │ pyyaml                 │ MIT License                           │
+│ ✔          │ websocket-client       │ Apache Software License               │
+│ ✔          │ certifi                │ Mozilla Public License 2.0 (MPL 2.0)  │
+│ ✔          │ docker                 │ Apache Software License               │
+│ ✔          │ antlr4-python3-runtime │ BSD                                   │
+│ ✔          │ requests               │ Apache Software License               │
+│ ✔          │ urllib3                │ MIT License                           │
+│ ✔          │ packaging              │ Apache Software License;; BSD License │
+│ ✔          │ charset-normalizer     │ MIT License                           │
+│ ✔          │ hydra-core             │ MIT License                           │
+│ ✔          │ omegaconf              │ BSD License                           │
+└────────────┴────────────────────────┴───────────────────────────────────────┘
 
