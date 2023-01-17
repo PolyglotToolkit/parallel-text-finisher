@@ -1,0 +1,15 @@
+                                                                           
+                             list of packages                              
+┏━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Compatible ┃ Package            ┃ License(s)                            ┃
+┡━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ ✔          │ docker             │ Apache Software License               │
+│ ✔          │ certifi            │ Mozilla Public License 2.0 (MPL 2.0)  │
+│ ✔          │ idna               │ BSD License                           │
+│ ✔          │ websocket-client   │ Apache Software License               │
+│ ✔          │ charset-normalizer │ MIT License                           │
+│ ✔          │ requests           │ Apache Software License               │
+│ ✔          │ packaging          │ Apache Software License;; BSD License │
+│ ✔          │ urllib3            │ MIT License                           │
+└────────────┴────────────────────┴───────────────────────────────────────┘
+

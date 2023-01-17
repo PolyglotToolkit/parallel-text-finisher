@@ -1,7 +1,8 @@
+# -*- coding: utf-8 -*-
 from typing import Any
 
 from configs import ConfigHandler
-from data_reader import read_data
+from parallel_text_finisher.common.data.data_reader import read_data
 
 
 class ParallelText:

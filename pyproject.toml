@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "parallel-text-finisher"
+version = "0.1.0"
+description = "Tools for creating attractive output formats from aligned parallel texts."
+authors = ["yelircaasi <isaac.r.riley@gmail.com>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+packages = [{include = "parallel_text_finisher"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+docker = "^6.0"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.7"
+pre-commit = "^2.21"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
