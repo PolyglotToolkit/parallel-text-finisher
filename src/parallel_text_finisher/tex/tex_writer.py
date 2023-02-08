@@ -1,0 +1,6 @@
+class TexWriterBuilder:
+    ...
+
+
+def get_tex_writer(settings_object):
+    ...

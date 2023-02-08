@@ -3,9 +3,13 @@
 		{
 			"path": ".."
 		},
+		{
+			"path": "../../parallel-text-aligner"
+		},
 	],
 	"settings": {
 		"python.formatting.provider": "black",
+		"python.defaultInterpreterPath": "/home/isaac/.cache/pypoetry/virtualenvs/parallel-text-finisher-1zcaketO-py3.11/bin/python",
 		"python.terminal.activateEnvironment": false,
 		"terminal.integrated.env.linux": {
 			"ZSH_INIT_COMMAND": "poetry shell"
