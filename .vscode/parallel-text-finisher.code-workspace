@@ -14,5 +14,8 @@
 		"terminal.integrated.env.linux": {
 			"ZSH_INIT_COMMAND": "poetry shell"
 		},
+		"python.analysis.diagnosticSeverityOverrides": {
+			"reportMissingImports": "none"
+		}
 	}
 }
