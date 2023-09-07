@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .sentence {
+            display: inline-block;
+            padding: 5px;
+            border: 1px solid #ccc;
+            margin-right: 10px;
+            vertical-align: top;
+        }
+
+        .aligned {
+            background-color: yellow;
+            font-weight: bold;
+        }
+    </style>
+    <script>
+        function alignWords(wordId) {
+            var words = document.querySelectorAll('.word');
+            for (var i = 0; i < words.length; i++) {
+                words[i].classList.remove('aligned');
+            }
+
+            var alignedWords = document.querySelectorAll('.word[data-align="' + wordId + '"]');
+            for (var j = 0; j < alignedWords.length; j++) {
+                alignedWords[j].classList.add('aligned');
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="sentence">
+        <span class="word" data-align="1" onmouseover="alignWords(1)">Hello</span>
+        <span class="word" data-align="2" onmouseover="alignWords(2)">world!</span>
+    </div>
+
+    <div class="sentence">
+        <span class="word" data-align="1" onmouseover="alignWords(1)">Bonjour</span>
+        <span class="word" data-align="2" onmouseover="alignWords(2)">monde!</span>
+    </div>
+</body>
+</html>
